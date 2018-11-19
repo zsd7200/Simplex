@@ -237,11 +237,11 @@ namespace Simplex
 		OUTPUT: shares at least one dimension?
 		*/
 		bool SharesDimension(String a_sUniqueID, MyEntity* const a_pOther);
-	
+
 		void ClearDimensionSetAll(void);
 		uint GetEntityCount(void);
 
-private:
+	private:
 		/*
 		Usage: constructor
 		Arguments: ---
@@ -284,8 +284,8 @@ private:
 
 #endif //__MYENTITYMANAGER_H_
 
-/*
-USAGE:
-ARGUMENTS: ---
-OUTPUT: ---
-*/
+  /*
+  USAGE:
+  ARGUMENTS: ---
+  OUTPUT: ---
+  */
